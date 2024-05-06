@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const {Server} = require('socket.io');
 
 const io = new Server({
-    cors: true
+    cors: '*'
 });
 const app = express(); 
 
